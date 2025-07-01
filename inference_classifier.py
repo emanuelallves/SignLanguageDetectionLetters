@@ -9,14 +9,20 @@ with open('./model/model.pickle', 'rb') as f:
 
 cap = cv.VideoCapture(0)
 
+frame_width = int(cap.get(cv.CAP_PROP_FRAME_WIDTH))
+frame_height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
+
+fourcc = cv.VideoWriter_fourcc(*'XVID')
+out = cv.VideoWriter('out.avi', fourcc, 20.0, (frame_width, frame_height))
+
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
-
 hands = mp_hands.Hands(static_image_mode=False, min_detection_confidence=0.3)
 
 counter = 0
 ALPHABET_DICT = {i: chr(65 + i) for i in range(26) if chr(65 + i) not in ['J', 'Z']}
+
 while True:
     data_aux = []
     x_ = []
@@ -71,6 +77,8 @@ while True:
             print("Erro ao prever:", e)
 
     cv.imshow('frame', frame)
+    out.write(frame)
+    
     if cv.waitKey(25) & 0xFF == ord('q'):
         break
 
