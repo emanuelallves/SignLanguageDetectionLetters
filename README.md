@@ -1,6 +1,6 @@
 # Reconhecimento de sinais em Libras com visão computacional
 
-Este projeto tem como objetivo identificar sinais em **Libras (Língua Brasileira de Sinais)** utilizando técnicas de visão computacional e machine learning. Todo o pipeline, desde a coleta de dados até a inferência em tempo real, foi desenvolvido do zero.
+Este projeto tem como objetivo identificar sinais em Libras utilizando técnicas de visão computacional e machine learning. Todo o pipeline, desde a coleta de dados até a inferência em tempo real, foi desenvolvido do zero.
 
 ## Tecnologias Utilizadas
 
