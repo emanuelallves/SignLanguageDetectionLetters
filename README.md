@@ -1,4 +1,4 @@
-# Reconhecimento de linguagem de sinais com visão computacional
+# Reconhecimento de Libras com visão computacional
 
 Este projeto tem como objetivo identificar linguagem de sianais utilizando técnicas de visão computacional e machine learning. Todo o pipeline, desde a coleta de dados até a inferência em tempo real, foi desenvolvido do zero.
 
