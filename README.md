@@ -37,3 +37,5 @@ Criei um script (inference_classifier.py) que:
 
 - Modelo: Random Forest
 - Acurácia: 99%
+
+![Inferência](image.png)
