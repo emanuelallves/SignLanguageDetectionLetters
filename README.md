@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo identificar linguagem de sianais utilizando técnicas de visão computacional e machine learning. Todo o pipeline, desde a coleta de dados até a inferência em tempo real, foi desenvolvido do zero.
 
-Vídeo completo testando o modelo: ![Vídeo](https://www.linkedin.com/posts/joao-emanuel-7bb2981a4_voc%C3%AA-realmente-entende-como-a-amostragem-activity-7349784603601072129-0mzo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-9a38B_ih9uTXawvKzjklse66Jn0wYGio)
+Vídeo completo testando o modelo: [Vídeo](bit.ly/3GFrZUh)
 
 ## Tecnologias utilizadas
 
